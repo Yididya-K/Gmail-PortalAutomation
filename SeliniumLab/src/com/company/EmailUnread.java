@@ -20,7 +20,7 @@ public class EmailUnread {
         driver.findElement(By.xpath("//*[@id=\"identifierNext\"]")).click();
 
         Thread.sleep(2000);
-        driver.findElement(By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input")).sendKeys("kovadk@1996@lohan");
+        driver.findElement(By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input")).sendKeys("password");
         driver.findElement(By.xpath("//*[@id=\"passwordNext\"]")).click();
         Thread.sleep(2000);
         String number=driver.findElement(By.xpath("//*[@id=\":je\"]/div/div[2]/div")).getText();
